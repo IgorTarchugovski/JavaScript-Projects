@@ -76,7 +76,6 @@ function getFieldName(input) {
 // Event listeners
 form.addEventListener("submit", function (e) {
   e.preventDefault();
-  console.log(username.value);
 
   checkRequired([username, email, password, password2]);
   checkLength(username, 3, 15);
