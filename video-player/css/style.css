@@ -19,6 +19,15 @@ h1 {
   color: #fff;
 }
 
+/* .video-player {
+    position: absolute;
+    top: 50%;
+} */
+
+/* video{
+    object-fit: fill;
+} */
+
 .screen {
   cursor: pointer;
   width: 50%;
@@ -26,6 +35,8 @@ h1 {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
+
 
 .controls {
   background: #333;
